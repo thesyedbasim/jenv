@@ -6,9 +6,7 @@
 	"scripts": {
 		"test": "jest --coverage",
 		"build": "tsc",
-		"dev": "ts-node src/main.ts",
-		"prepublish": "npm run build",
-		"postinstall": "npm run build"
+		"dev": "ts-node src/main.ts"
 	},
 	"files": [
 		"dist/**/*"
