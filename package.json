@@ -27,7 +27,7 @@
 		"url": "https://github.com/thesyedbasim/json-to-env-var/issues"
 	},
 	"bin": {
-		"jenv": "dist/main.js"
+		"jsenv": "dist/main.js"
 	},
 	"author": "Syed Basim",
 	"license": "MIT",
