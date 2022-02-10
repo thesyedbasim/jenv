@@ -1,6 +1,6 @@
 {
 	"name": "@syedbasim/jsenv",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "A package that converts your JSON file to environment variable format.",
 	"main": "dist/main.js",
 	"scripts": {
