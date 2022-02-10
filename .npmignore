@@ -1,0 +1,15 @@
+node_modules/
+
+*.env
+*.local
+
+.github/
+coverage/
+tests/
+jest.config.ts
+tsconfig.tsbuildinfo
+tsconfig.json
+
+# testing files
+file.json
+test.json

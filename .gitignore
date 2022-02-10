@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+
+tsconfig.tsbuildinfo
+
+*.env
+*.local
+
+# testing files
+file.json
+test.json
