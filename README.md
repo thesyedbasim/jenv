@@ -2,10 +2,15 @@
 
 This package converts your JSON file to environment variable format. This executable also provides `process.env.<key>` for you to copy in your code.
 
+## Installation
+```bash
+npm install @syedbasim/jsenv
+```
+
 ## Usage Syntax
 
 ```bash
-npx jenv <input file> <output file> -w -p <?prefix>
+jenv <input file> <output file> -w -p <?prefix>
 ```
 
 _Note: `-w` (write) and `-p <prefix>` (prefix) are optional. See [Prefix](#passing-a-prefix) and [Append & Write modes](#append--write-mode) for more detail._
@@ -24,7 +29,7 @@ _Note: `-w` (write) and `-p <prefix>` (prefix) are optional. See [Prefix](#passi
 In Terminal:
 
 ```bash
-npx jenv file.json .env
+jenv file.json .env
 ```
 
 Will output in `.env` file:
@@ -46,7 +51,7 @@ Also, the terminal will generate code which you can copy and paste in your JS/TS
 ## Passing a prefix
 
 ```bash
-npx jenv file.json .env -p public_var
+jenv file.json .env -p public_var
 ```
 
 Will output to:
@@ -61,9 +66,9 @@ PUBLIC_VAR_PROJECT_NAME="json-to-env-var"
 By default, this executable will _append_ to the output file. If you want to write to it (i.e. remove any existing data in the output file and then writing), you can specify `-w` flag.
 
 ```bash
-npx jenv file.json .env -w
+jenv file.json .env -w
 ```
 
 ```bash
-npx jenv file.json .env -w -p prefix
+jenv file.json .env -w -p prefix
 ```
