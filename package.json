@@ -13,6 +13,7 @@
 		"dist/**/*"
 	],
 	"keywords": [
+		"jsenv",
 		"json",
 		"env",
 		".env",
@@ -20,11 +21,11 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/thesyedbasim/json-to-env-var"
+		"url": "https://github.com/thesyedbasim/jsenv"
 	},
-	"homepage": "https://github.com/thesyedbasim/json-to-env-var",
+	"homepage": "https://github.com/thesyedbasim/jsenv",
 	"bugs": {
-		"url": "https://github.com/thesyedbasim/json-to-env-var/issues"
+		"url": "https://github.com/thesyedbasim/jsenv/issues"
 	},
 	"bin": {
 		"jsenv": "dist/main.js"
