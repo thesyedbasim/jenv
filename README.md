@@ -1,4 +1,4 @@
-# json-to-env-var
+# JSON to Env variables
 
 This package converts your JSON file to environment variable format. This executable also provides `process.env.<key>` for you to copy in your code.
 
