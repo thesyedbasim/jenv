@@ -5,7 +5,7 @@ This package converts your JSON file to environment variable format. This execut
 ## Installation
 
 ```bash
-npm install @syedbasim/jsenv
+npm install -g @syedbasim/jsenv
 ```
 
 ## Usage Syntax
